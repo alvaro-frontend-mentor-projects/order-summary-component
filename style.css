@@ -5,7 +5,7 @@
 :root {
     /* Primary Colors */
     --pale-blue: hsl(225, 100%, 94%);
-    --bright-blue: hwb(245 16% 12%);
+    --bright-blue: #382be0;
     /* Neutral Colors */
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
