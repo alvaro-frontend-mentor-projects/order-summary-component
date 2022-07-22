@@ -20,7 +20,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--very-pale-blue);
+    background-color: var(--pale-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,6 @@ body {
 
 .background {
     position: absolute;
-    opacity: 50%;
     left: 0;
     top: 0;
     z-index: -1;
@@ -120,5 +119,20 @@ button {
     padding: 15px 0 15px 0;
     font-size: 13px;
     font-weight: 700;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+.cancel {
+    font-size: 14px;
+    color: var(--desaturated-blue);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cancel:hover {
+    color: black;
 }
 
