@@ -15,6 +15,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .background {
@@ -48,6 +50,7 @@ body {
 }
 
 .details-section {
+    
     margin: 30px;
     display: flex;
     flex-direction: column;
@@ -57,9 +60,8 @@ body {
 }
 
 .title {
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 900;
     
 }
 
@@ -70,3 +72,46 @@ body {
     text-align: center;
     line-height: 1.5;
 }
+
+
+
+.price-plan-container {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.price-plan-container img {
+    padding-left: 20px;
+}
+
+.price-plan-container a {
+    margin-left: auto;
+    padding-right: 20px;
+    color: var(--bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.annual-plan {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: var(--desaturated-blue);
+}
+
+.button {
+    
+}
+
