@@ -115,17 +115,17 @@ body {
     color: var(--desaturated-blue);
 }
 
-button {
+.button {
     background-color: var(--bright-blue);
     color: white;
-    border: none;
     border-radius: 10px;
     width: 100%;
     padding: 15px 0 15px 0;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: .5px;
-    /* box-shadow: 2px 5px 40px var(--desaturated-blue) ; */
+    text-align: center;
+    box-shadow: 2px 5px 40px var(--desaturated-blue) ;
 }
 
 button:hover {
