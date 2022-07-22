@@ -1,7 +1,7 @@
 /* Root Color Variables */
 :root {
     /* Primary Colors */
-    --paleblue: hsl(225, 100%, 94%);
+    --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hwb(245 16% 12%);
     /* Neutral Colors */
     --very-pale-blue: hsl(225, 100%, 98%);
@@ -18,7 +18,8 @@ body {
     height: 100vh;
     background-color: var(--very-pale-blue);
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,7 +31,13 @@ body {
     z-index: -1;
 }
 
+.main-image {
+    width: 100%
+}
+
 .main-container {
+    background-color: white;
+    width: 300px;
 
 
 }
