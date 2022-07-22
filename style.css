@@ -1,3 +1,6 @@
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 /* Root Color Variables */
 :root {
     /* Primary Colors */
@@ -38,7 +41,7 @@ body {
 
 .main-container {
     background-color: white;
-    width: 300px;
+    width: 400px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -54,5 +57,16 @@ body {
 }
 
 .title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
     
+}
+
+.paragraph {
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--desaturated-blue);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
 }
