@@ -1,0 +1,36 @@
+/* Root Color Variables */
+:root {
+    /* Primary Colors */
+    --paleblue: hsl(225, 100%, 94%);
+    --bright-blue: hwb(245 16% 12%);
+    /* Neutral Colors */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--very-pale-blue);
+    display: flex;
+
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    opacity: 50%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.main-container {
+
+
+}
