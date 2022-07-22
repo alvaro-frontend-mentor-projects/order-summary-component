@@ -111,7 +111,14 @@ body {
     color: var(--desaturated-blue);
 }
 
-.button {
-    
+button {
+    color: white;
+    background-color: var(--bright-blue);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    font-size: 13px;
+    font-weight: 700;
 }
 
