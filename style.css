@@ -116,8 +116,8 @@ body {
 }
 
 button {
-    color: white;
     background-color: var(--bright-blue);
+    color: white;
     border: none;
     border-radius: 10px;
     width: 100%;
